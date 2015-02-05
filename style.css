@@ -1,0 +1,171 @@
+body {
+  margin-top: 0;
+}
+
+.reload { 
+  font-family: Lucida Sans Unicode; 
+  float: right; 
+  background-color: #306; 
+}
+
+.title, .link {
+  float: left;
+}
+
+.title:hover,
+#shrink:hover,
+#hideshow:hover {
+  cursor: pointer;
+}
+
+.title:hover {
+  border-left: 7px solid #900;
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #000007;
+}
+
+a {
+  text-decoration: none;
+}
+
+.category {
+  float: left;
+  width: 100%;
+  overflow: auto;
+}
+
+.categories {
+  float: left;
+  width: 75%;
+  overflow: auto;
+}
+
+.constructor {
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  z-index: 100;
+
+  width: 23%;
+  margin-right: 1%;
+  padding-top: 10px;
+
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  background-color: #111;
+  min-height: 100px;
+  overflow: auto;
+}
+
+.listing {
+  float: left;
+  width: 16%;
+  margin-top: 0.5%;
+  padding-right: 0.5%;
+}
+
+.listing_author a, .listing_add, .listing_remove {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.listing_add {
+  background-color: #123;
+  font-size: 80%;
+  border-radius: 3px;
+  padding: 0px 7px;
+  float: left;
+}
+
+.box {
+  width: 24%;
+  margin: 0.5%;
+  float:left;
+  font-size: 50%;
+}
+
+.box img {
+  width:100%;
+  border-radius: 3px;
+}
+
+.listing_add:hover,
+.listing_remove:hover {
+  cursor: pointer;
+}
+
+.listing_author {
+  width: 100%;
+  float: left;
+  font-size: 80%;
+  color: #FFF;
+}
+
+.content img {
+  width: 100%;
+  float: left;
+  border-radius: 5px;
+}
+
+.content {
+  padding-top: 15px;
+}
+
+.description {
+  color: #AAA;
+  font-size: 60%;
+  padding-left: 7px;
+  width: 100%;
+}
+
+#shrink, #hideshow {
+  background-color: #333;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  color:#AAA;
+  float:left;
+  margin: 1%;
+  margin-top: 0;
+  text-align: center;
+  width: 48%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#shrink:hover, #hideshow:hover {
+  background-color: #222;
+  color: #BBB;
+}
+
+.title, .description, .listing_add, #links, #boxes {
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  box-sizing:border-box;
+}
+
+.title {
+  color: #FFF;
+  margin-top: 1px;
+  padding: 10px;
+  width: 100%;
+  border-left: 7px solid #000;
+}
+
+#boxes {
+  overflow: auto;
+  width:100%;
+  margin-top:7px;
+  padding: 0px 7px;
+}
+
+#links {
+  color: #FFF;
+  font-size: 50%;
+  margin-bottom: 10px;
+  padding: 0px 10px;
+  margin-top: 10px;
+  width: 100%;
+}
