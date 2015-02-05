@@ -1,4 +1,4 @@
-Etsy Thug (assistant / UI concept)
+Etsy Thug (online tool / UI concept)
 ====================================
 UI tool for making collections on Etsy.
 
