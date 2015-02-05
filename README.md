@@ -20,5 +20,8 @@ Making collections in [Etsy](https://www.etsy.com) is still a very mundane task.
 * Right half is 4x4, just like the collections on Etsy. Move the cool items you've added in step 1 around (drag & drop) until it makes sence to you,
 * On the bottom of the right half you will always see the updated list of links for the collection you've just built. These are needed when you create your awesome collection on Etsy. That's all, dawg...
 
+### License:
+MIT
+
 ### Contact:
 <a href="https://twitter.com/qutebits">@qutebits</a> or qute.bits (gmail)
