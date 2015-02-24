@@ -38,16 +38,34 @@ function create_categories()
 		'bead',
 		'jewelry',
 		'glassware',
+		'stained_glass',
+		'home_decor',
+		'pipe',
+		'suncatcher',
+		'bottle',
+		'ornament',
+		'cabochon',
+		'dish',
+		'supplies',
+		'sculpture',
 		'vase',
 		'paperweight',
 		'magnet',
 		'bowl',
+		'coaster',
+		'windchime',
 		'mirror',
 		'marbles'
 	];
 
 	var categories_2 = [
 		'suncatcher',
+		'decorative',
+		'panel',
+		'ornament',
+		'lamp',
+		'candle_holder',
+		'box',
 		'jewelry',
 		'animal',
 		'plant',
@@ -58,11 +76,11 @@ function create_categories()
 	var id_number = 0;
 
 	for(var i = 0; i < categories_1.length; i++){
-		categories.push([categories_1[i],'https://www.etsy.com/search/handmade/glass/'+categories_1[i]+'?q=']);
+		categories.push([categories_1[i],'https://www.etsy.com/search/handmade?q=glass%20'+categories_1[i] +'&order=date_desc']);
 	}
 
 	for(var i = 0; i < categories_2.length; i++){
-		categories.push(['STAINED_GLASS_'+categories_2[i],'https://www.etsy.com/search/handmade/glass/stained_glass/'+categories_2[i]+'?q=&order=most_relevant']);
+		categories.push(['STAINED_GLASS_'+categories_2[i],'https://www.etsy.com/search/handmade?q=stained%20glass%20'+categories_2[i]+'&order=date_desc']);
 	}
 
 	for(var i = 0; i < categories.length; i++){
