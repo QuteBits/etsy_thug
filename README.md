@@ -10,7 +10,7 @@ Making collections in [Etsy](https://www.etsy.com) is still a very mundane task.
 
 ##### Screenshots:
 
-![Etsy Thug](https://raw.github.com/QuteBits/onScriptogram/master/img/08-01.jpg "Etsy Thug")
+![Etsy Thug](https://raw.github.com/QuteBits/onScriptogram/master/img/08-01-etsy.jpg "Etsy Thug")
 
 ### Install:
 * Download this shit from GitHub and unzip to any LAMP-server. If you consider yourself a nab or don't get it - ask your local computer geeks how you setup a LAMP-server or just an Apache server on your localhost.
